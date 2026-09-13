@@ -173,7 +173,7 @@
                     <!-- |Start Site Status Block| -->
                     <div class="charts--thread-status charts--breakdown">
                         <h2>The Great War</h2>
-                        <canvas id="siteidfromsheet"></canvas>
+                        <canvas id="tgw"></canvas>
                     </div>
                     <script>
                         fetch(`https://opensheet.elk.sh/${sheetID}/Threads`)
@@ -183,7 +183,7 @@
                             .then((response) => response.json())
                             .then((siteData) => {
                                 //set overall variables
-                                let siteName = 'tgw';
+                                let siteName = 'the great war';
                                 let siteObject = siteName !== 'all' ? siteData.filter(item => item.Site === siteName) : siteData;
                                 let threadStats = createThreadStats(threadData, siteObject, siteName, siteData);
 
