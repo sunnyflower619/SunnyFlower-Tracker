@@ -1,5 +1,5 @@
-const deployID = 'AKfycbxFo832RGRhb4M9mDVdF19OHgy_dW2PGxWy3xbXO8-Lfyu1Cdkej2kzX3V1Xig-5Kv_';
-const sheetID = `1g8zQfxOeKMjfoq7uybyP0hSVs6DU7WBkb5dQ4yRrcJ4`;
+const deployID = 'AKfycbwoJmki-NYoBZBGnrM-wmE28Wa9VqmCQiaF7f5Oyxw2WDWo8J7T8yTMsi_V12AEkKJ0';
+const sheetID = `1AuoTpmHbIv-s_haIecqET-UpfF79t48r7fX16eaWf6c`;
 
 //Options for relationships and thread tags
 const relationshipSections = `<option value="">(select)</option>
